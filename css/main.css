@@ -8,14 +8,14 @@
     display: flex; }
   .header__item + .header__item {
     margin-left: 40px; }
-  .header__item {
+  .header__item a {
     color: #4d4d4d;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     transition: all 0.3s;
     cursor: pointer; }
-  .header__item:hover {
+  .header__item a:hover {
     transition: all 0.3s;
     color: #5e63ff; }
   .header__widget {
